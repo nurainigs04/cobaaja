@@ -4,6 +4,14 @@
     </div>
   </template>
   
+<script setup>
+  import { ref } from 'vue'
+  
+  const kegiatanBaru = ref('')
+  const jamBaru = ref('')
+  const daftarKegiatan = ref([])
+</script>
+  
 
 <style scoped>
 
